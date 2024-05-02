@@ -17,7 +17,7 @@ void dfs(int numNodes, int beginNode) {
   visited[beginNode] = true;
 
   cout << "Depth-First Traversal: ";
-  while (!stack.empty()) {
+  for ( ; !stack.empty() ; ) {
     int presentNode = stack.top();
     stack.pop();
     cout << presentNode << " ";
