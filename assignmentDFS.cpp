@@ -22,10 +22,10 @@ void dfs(int numNodes, int beginNode) {
     stack.pop();
     cout << presentNode << " ";
 
-    for (int neighbor = 0; neighbor < numNodes; ++neighbor) {
-      if (graph[presentNode][neighbor] && !visited[neighbor]) {
-        stack.push(neighbor);
-        visited[neighbor] = true;
+    for (int i = 0; i < numNodes; ++i) {
+      if (graph[presentNode][i] && !visited[i]) {
+        stack.push(i);
+        visited[i] = true;
       }
     }
   }

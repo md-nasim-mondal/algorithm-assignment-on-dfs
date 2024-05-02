@@ -28,4 +28,4 @@
 
 ## Git Commands
 
-![Git Commands](images/first-git-commnands.jpg)
+![Git Commands](images/first-git-commands.jpg)
